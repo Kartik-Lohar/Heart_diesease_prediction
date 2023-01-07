@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<h1> Heart Diesease Prediction</h1>
+
+<body>
+    <!-- Load an icon library -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+                <form action="/predict" ,method="GET">
+                    <div class="wrap-input100 validate-input">
+                        <input class="input100" type="text" id="age" name="age" placeholder="Age"><br><br>
+                    </div>
+                    <div class="wrap-input100 validate-input">
+                        <input class="input100" type="text" id="sex" name="sex" placeholder="Sex"><br><br>
+
+                        <div class="wrap-input100 validate-input">
+                            <input class="input100" type="text" id="cp" name="cp" placeholder="CP"><br><br>
+
+
+                        </div>
+                        <div class="wrap-input100 validate-input">
+                            <input class="input100" type="text" id="trestbps" name="trestbps"
+                                placeholder="Trestbps"><br><br>
+
+
+                        </div>
+                        <div class="wrap-input100 validate-input">
+                            <input class="input100" type="text" id="chol" name="chol" placeholder="Cholesterol"><br><br>
+
+
+                        </div>
+                        <div class="wrap-input100 validate-input">
+                            <input class="input100" type="text" id="fbs" name="fbs"
+                                placeholder="Fasting blood sugar (FBS)"><br><br>
+
+
+                        </div>
+                        <div class="wrap-input100 validate-input">
+                            <input class="input100" type="text" id="restecg" name="restecg"
+                                placeholder="Restecg"><br><br>
+
+
+                        </div>
+                        <div class="wrap-input100 validate-input">
+                            <input class="input100" type="text" id="thalach" name="thalach"
+                                placeholder="Thalach"><br><br>
+
+
+                        </div>
+                        <div class="wrap-input100 validate-input">
+                            <input class="input100" type="text" id="exang" name="exang" placeholder="Exang"><br><br>
+
+
+                        </div>
+                        <div class="wrap-input100 validate-input">
+                            <input class="input100" type="text" id="oldpeak" name="oldpeak"
+                                placeholder="Oldpeak"><br><br>
+
+
+                        </div>
+                        <div class="wrap-input100 validate-input">
+                            <input class="input100" type="text" id="slope" name="slope" placeholder="Slope"><br><br>
+
+
+                        </div>
+                        <div class="wrap-input100 validate-input">
+                            <input class="input100" type="text" id="ca" name="ca" placeholder="CA"><br><br>
+
+
+                        </div>
+                        <div class="wrap-input100 validate-input">
+                            <input class="input100" type="text" id="thal" name="thal" placeholder="Thal"><br><br>
+
+                        </div>
+                        <div class="container-contact100-form-btn">
+
+                            <input class="contact100-form-btn" type="submit" value="Submit">
+                        </div>
+                </form>
+                <div style="width: 30%; border: 10px blue;border-color: blue; color: red">{{output}}</div>
+    <!-- <script type='text/javascript'></script> -->
+</body>
+
+</html>

@@ -28,7 +28,7 @@ Step 7: Use this save state in your flask framework mainly building the webappli
 
 
 
-Now at last we Successfully created a webapp which predict a person has a heart disease or not with a accuracy of 82%. 
+Now at last we Successfully created a webapp which predict a person has a heart disease or not. 
 
 Steps to run Webapp:
 
